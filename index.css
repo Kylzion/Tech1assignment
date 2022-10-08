@@ -1,0 +1,70 @@
+body{
+  background-image: url(https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+table, th, td, tr {
+  border: 1px solid black;align-content: flex-start;
+  margin-left: 200px;
+}
+tr{
+  background-color: whitesmoke;
+}
+th{
+  align-content: flex-start;
+}
+p {
+  color: white;
+}
+form {
+  margin-block-end: 2%;
+} 
+h2, h3, h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: white;
+}
+li{
+    color: white;
+    font-weight: 500;
+    font-family: Cambria;
+}
+label{color: white;
+
+}
+a{
+  text-decoration: none;
+}
+div{
+  background-color: skyblue;
+  width: 40%;
+  
+}
+img{
+  border-radius: 20px;
+  width: 100%;
+}
+.firstdiv:hover{
+  border: dashed;
+  background-color: beige;
+}
+.firstp{
+  color: black;
+}
+.anotherclass:hover{
+  background-color: brown;
+  border: double orange;
+  padding-left: 10%;
+}
+
+.flex_1{
+  display: flex;
+}
+#id_1{
+  margin-left: 10%;
+}
+.last:hover{
+  width: 79%;
+  padding: 10%;
+}
